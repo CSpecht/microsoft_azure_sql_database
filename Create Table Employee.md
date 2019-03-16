@@ -29,7 +29,7 @@ CREATE TABLE dbo.Employee
    FirstName    [NVARCHAR](50)  NOT NULL,
    Phone        [NVARCHAR](50)  NOT NULL,
    Email        [NVARCHAR](50)  NOT NULL,
-   OfficeNr     [NVARCHAR](50)  NOT NULL,
+   OfficeNr     int             NOT NULL,
 );
 GO
 ```
